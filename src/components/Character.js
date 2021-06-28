@@ -17,5 +17,12 @@
               })
       }, [])
   
-      return (<div>{characters.map((char) => { return <Stats key={char.name + char.url} char={char} /> })}</div>);
+      return (
+      <div>
+          {characters.map((char) => { 
+              return <Stats key={char.name + char.url} char={char} /> 
+          })}
+      </div>);
   }
+
+  export default Character;
