@@ -10,10 +10,10 @@
           axios.get("https://swapi.dev/api/people/")
               .then(res => {
                   setCharacters(res.data);
-                  console.log(res.data, "app js line 28");
+                  console.log(res.data, "success");
               })
               .catch(err => {
-                  console.log(err);
+                  console.log(err, "error");
               })
       }, [])
   
