@@ -1,8 +1,31 @@
 .App {
   text-align: center;
 }
+body {
+
+}
 .Header {
-  color: #443e3e;
+  color: #443e3e;  
   text-shadow: 1px 1px 5px #fff;
 }
+
+h1, h2, h3, div {
+  font-family:Star-Wars;
+  color: #feed00;
+
+}
+
+li {
+  color:gold;
+}
+li:hover {
+  color:red;
+
+}
+
+p{
+  font-family: Anakin;
+  color: #17aaf9;  
+}
+
 /* write your parent styles in here for your App.js */
